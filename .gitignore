@@ -1,17 +1,30 @@
-# Python
+# Personal/private files
+resume/
+job_files/
+
+# Generated reports
+job_review*.xlsx
+
+# Gmail OAuth credentials
+credentials.json
+token.json
+
+# Secrets
+.env
+*.env
+# IDE / Python
+.idea/
+.venv/
 __pycache__/
 *.pyc
 
-# Virtual environment
-.venv/
-venv/
+# Downloaded Gmail data
+gmail_fetched_test/
 
-# PyCharm
-.idea/
+# Logs / local state
+sent_log.csv
+processed_gmail_messages.csv
+backlog_completed.flag
 
 # macOS
 .DS_Store
-
-# Secrets / environment variables
-.env
-*.env
